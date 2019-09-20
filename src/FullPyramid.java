@@ -11,7 +11,7 @@ public class FullPyramid {
 				
 				if(j>=x-(i-1) && j<=x+(i-1)) {
 					
-					System.out.print("* ");
+					System.out.print("* "); // System.out.print(i+" ");
 				}else {
 					
 					System.out.print("  ");
@@ -31,6 +31,17 @@ public class FullPyramid {
       * * * * * 
     * * * * * * * 
   * * * * * * * * * 
+  
+  
+    input 7
+    
+            	1             
+          	  2 2 2           
+        	3 3 3 3 3         
+          4 4 4 4 4 4 4       
+    	5 5 5 5 5 5 5 5 5     
+      6 6 6 6 6 6 6 6 6 6 6   
+	7 7 7 7 7 7 7 7 7 7 7 7 7
 
 
  */
