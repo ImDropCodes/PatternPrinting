@@ -1,3 +1,4 @@
+package Pyramid;
 import java.util.*;
 
 public class HalfHallowPyramid {

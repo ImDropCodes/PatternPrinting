@@ -1,3 +1,4 @@
+package Square;
 import java.util.Scanner;
 
 public class HallowSquare {
