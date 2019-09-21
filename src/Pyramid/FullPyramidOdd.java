@@ -1,6 +1,6 @@
 package Pyramid;
 import java.util.*;
-public class FullPyramid {
+public class FullPyramidOdd {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
@@ -12,10 +12,10 @@ public class FullPyramid {
 				
 				if(j>=x-(i-1) && j<=x+(i-1)) {
 					
-					System.out.print("* "); // System.out.print(i+" ");
+					System.out.print("*"); // System.out.print(i+" ");
 				}else {
 					
-					System.out.print("  ");
+					System.out.print(" ");
 				}
 			}
 			System.out.println();
@@ -27,11 +27,11 @@ public class FullPyramid {
  
  	input 5
  	
-          * 
-        * * * 
-      * * * * * 
-    * * * * * * * 
-  * * * * * * * * * 
+ 		*    
+ 	   ***   
+ 	  *****  
+ 	 ******* 
+ 	*********
   
   
     input 7
